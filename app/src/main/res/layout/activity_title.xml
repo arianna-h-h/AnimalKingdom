@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ariannaharadon.project4.TitleActivity"
+    android:background="@android:color/background_dark">
+
+    <ImageView
+        android:id="@+id/wel"
+        android:background="@drawable/wel"
+        android:gravity="center"
+        android:padding="32dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:text="@string/welcome"
+        android:textSize="30sp"
+        android:layout_width="600dp"
+        android:gravity="center_vertical"
+        android:layout_height="100dp"
+        android:textAlignment="center"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColorHint="@android:color/background_light"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:layout_width="500dp"
+        android:text="@string/open_button"
+        android:onClick="newMain"
+        android:layout_height="100dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -6,24 +6,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-
 import java.util.Locale;
 
-/**
- * Created by ariannaharadon on 2/24/17.
- */
 
-public class DogFragment extends Fragment {
+public class AnimalFragment extends Fragment {
     public static final String ARG_DOG_NUMBER = "dog_number";
 
-    public DogFragment() {
+    public AnimalFragment() {
         // Empty constructor required for fragment subclasses
     }
 
+
+    //Creates and inflates animal fragment to be displayed
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_dog, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_animal, container, false);
         int i = getArguments().getInt(ARG_DOG_NUMBER);
         String dog = getResources().getStringArray(R.array.dogs_array)[i];
 

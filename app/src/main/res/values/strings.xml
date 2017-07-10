@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Haradon Final Project</string>
+    <string name="app_name">Animal Kingdom</string>
     <string-array name="dogs_array">
         <item>Cat</item>
         <item>Horse</item>

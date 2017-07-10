@@ -1,4 +1,4 @@
-package com.example.ariannaharadon.project4;
+package com.example.ariannaharadon.animalkingdom;
 
 import android.app.Fragment;
 import android.app.FragmentManager;

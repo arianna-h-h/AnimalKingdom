@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ariannaharadon.project4"
+    package="com.example.ariannaharadon.animalkingdom"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -17,7 +17,7 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
         <activity
-            android:name=".TitleActivity"
+            android:name="com.example.ariannaharadon.animalkingdom.TitleActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +26,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.ariannaharadon.animalkingdom.MainActivity"
             android:label="MainActivity"></activity>
     </application>
 
